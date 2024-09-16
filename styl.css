@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box
+}
+
+.one {
+    float: left;
+    width: 40px;
+    padding: 65px;
+
+}
+
+.two {
+    float: left;
+    width: 40px;
+    padding: 50px;
+
+}
+
+.three {
+    float: left;
+    width: 40px;
+    padding: 35px;
+
+}
+
+.four {
+    float: left;
+    width: 40px;
+    padding: 35px;
+
+}
+
+.row::after {
+
+    content: "";
+    display: table;
+    clear: both;
+
+}
